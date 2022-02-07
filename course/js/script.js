@@ -271,6 +271,7 @@ function iniciarScriptButtons() {
             element.setAttribute("id", "base-button-" + index);
             element.addEventListener("click", function () {
                 comboboxCorrection(this);
+                console.log('this  ', this);
             });
         });
     }, 300);
@@ -282,8 +283,11 @@ function comboboxCorrection(currentButton) {
         let buttonSelected = document.querySelector("#" + currentButton.id).parentElement.parentElement.parentElement;
         let currentHeightBoxSelected = parseInt(boxSelected.style.top.split("px")[0]);
 
+        console.log('buttonSelected  ', buttonSelected);
         let distance = buttonSelected.getBoundingClientRect().top - boxSelected.getBoundingClientRect().top;
         boxSelected.style.top = (distance + currentHeightBoxSelected) + "px";
+
+        console.log('distance  ', distance);
     }, 1);
 }
 
