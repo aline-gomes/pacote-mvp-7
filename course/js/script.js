@@ -256,17 +256,17 @@ function prepareScreen() {
     switch (currentScreen) {
         case 4:
             if (!tela4) {
-                // iniciarScriptButtons();
-                // tela4 = true;
+                iniciarScriptButtons();
+                tela4 = true;
 
-                var teste = document.querySelectorAll('.qp-placeholder');
+                // var teste = document.querySelectorAll('.qp-placeholder');
 
-                for (let i = 0; i < teste.length; i++) {
-                    teste[i].addEventListener("click", function (e) {
-                        let event = e.target;
-                        console.log(event);
-                    });
-                }
+                // for (let i = 0; i < teste.length; i++) {
+                //     teste[i].addEventListener("click", function (e) {
+                //         let event = e.target;
+                //         console.log(event);
+                //     });
+                // }
             }
             break;
     }
