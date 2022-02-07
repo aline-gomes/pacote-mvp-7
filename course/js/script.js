@@ -280,6 +280,7 @@ function iniciarScriptButtons() {
             element.setAttribute("id", "base-button-" + index);
             element.addEventListener("click", function () {
                 comboboxCorrection(this);
+                console.log(this);
             });
         });
     }, 300);
@@ -293,7 +294,7 @@ function comboboxCorrection(currentButton) {
 
         let distance = buttonSelected.getBoundingClientRect().top - boxSelected.getBoundingClientRect().top;
         boxSelected.style.top = (distance + currentHeightBoxSelected) + "px";
-    }, 1);
+    }, 10);
 }
 
 /* DRAG COMUM */
