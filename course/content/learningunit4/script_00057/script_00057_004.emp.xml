@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.188" identifier="ITEM_004" playerVersion="1.8.0" timeDependent="false" title="Practice 2">
+<styleDeclaration><link href="../common/default.css" userAgent=".*"/><link href="../common/android.css" userAgent=".*Android"/><link href="../common/ios.css" userAgent=".*iPad|.*iPhone"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>3</value>
+		</defaultValue>
+	</outcomeDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_1-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_1-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_1-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_1-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_1-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DROP_RESPONSE_1-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DROP_RESPONSE_1-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_1-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="DROP_RESPONSE_1">
+					<correctResponse>
+						<value forIndex="0">1154783073</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_2-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_2-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_2-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_2-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_2-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DROP_RESPONSE_2-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DROP_RESPONSE_2-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_2-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="DROP_RESPONSE_2">
+					<correctResponse>
+						<value forIndex="0">-1484999559</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_3-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_3-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_3-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_3-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_3-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DROP_RESPONSE_3-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DROP_RESPONSE_3-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="DROP_RESPONSE_3-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="DROP_RESPONSE_3">
+					<correctResponse>
+						<value forIndex="0">414527253</value>
+					</correctResponse>
+				</responseDeclaration>
+		<itemBody>
+
+		<div class="page-practice">	
+           	<div class="page-header">		
+				<div class="lesson-header-home-button"><shape class="home-button"/></div>
+				<div class="lesson-header-page-title"><info class="variable-page-title"/></div>
+	        	<div class="lesson-header-lesson-title"><info class="variable-lesson-title"/></div>		
+			</div>
+			<div class="page-content">	
+	            <group class="activity" id="dummy1">
+	<group class="rubric" id="dummy1_1">
+	<div class="rubric-cloud">
+				<audioPlayer class="player-normal" data="media/rub_y12_u01_p4_001au.mp3" id="dummy1_1_1">
+<source src="media/rub_y12_u01_p4_001au.mp3" type="audio/mp4"/>	</audioPlayer>
+				<simpleText class="question" id="dummy1_1_2">
+Read and choose the correct options to complete the sentences.</simpleText>
+			</div>
+</group>			
+<group class="grammar_box" id="dummy1_2">
+	<div class="grammar-box">
+	<div class="col-md-12">
+		<simpleText class="grammar-title" id="dummy1_2_1">
+Gerunds as subjects and as objects</simpleText>
+	</div>
+	<div class="col-md-12 align-hc">
+		<table class="center grammar-table" id="dummy1_2_2">
+	<tr>
+		<td>
+<simpleText>Gerunds (verbs + <i>-ing</i>) can act as subjects or objects in sentences.</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+
+<group id="dummy1_2_2_x0y1">
+	<simpleText id="dummy1_2_2_x0y1_1">
+We can use</simpleText>			
+<simpleText class="goals-list" id="dummy1_2_2_x0y1_2">
+nouns</simpleText>			
+<simpleText class="goals-list" id="dummy1_2_2_x0y1_3">
+adverbs</simpleText>			
+<simpleText class="goals-list" id="dummy1_2_2_x0y1_4">
+phrases beginning with prepositions (<i>at, in, from, with, by, about, under, without</i>, etc.)</simpleText>			
+<simpleText id="dummy1_2_2_x0y1_5">
+after a <b>subject</b> <i>-ing</i> form.</simpleText>
+</group>		</td>
+	</tr>
+	<tr>
+		<td>
+
+<simpleText class="normal-text" id="dummy1_2_2_x0y2">
+<b>Examples:</b>
+<br/>
+			A. <i>Dancing is great for everyone.</i>
+<br/>
+			B. <i>Drinking water is good for you when exercising a lot.</i>
+<br/>
+			C. <i>Swimming regularly can help you lose weight.</i></simpleText>		</td>
+	</tr>
+</table>
+
+	</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy3'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy4'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy5'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy6'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy7'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy8'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy9'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy10'!-->
+	</div>
+</div>
+</group>			
+<group class="grid_33x66_noline" id="dummy1_3">
+	<div class="t33x66">
+		<div class="w100perc">	
+			<div class="w33perc">
+				<div class="inner">
+					<img class="colorline" fullscreenMode="magnific" id="dummy1_3_1" src="media/y9_u57_p1_008i.png" srcFullScreen="media/y9_u57_p1_008i_f.jpg">
+</img>
+				</div>	
+			</div>
+			<div class="w66perc">
+				<div class="inner">
+					<textInteraction id="dummy1_3_2">
+<span>In sentence A the gerund is followed by </span>		<inlineChoiceInteraction responseIdentifier="DROP_RESPONSE_1" shuffle="true">
+			<inlineChoice identifier="-1484999559">a noun</inlineChoice>
+			<inlineChoice identifier="414527253">an adverb</inlineChoice>
+			<inlineChoice identifier="1154783073">a prepositional phrase</inlineChoice>
+		</inlineChoiceInteraction><span>.
+<br/>
+		In sentence B the gerund is followed by </span>		<inlineChoiceInteraction responseIdentifier="DROP_RESPONSE_2" shuffle="true">
+			<inlineChoice identifier="-1484999559">a noun</inlineChoice>
+			<inlineChoice identifier="414527253">an adverb</inlineChoice>
+			<inlineChoice identifier="1154783073">a prepositional phrase</inlineChoice>
+		</inlineChoiceInteraction><span>.
+<br/>
+		In sentence C the gerund is followed by </span>		<inlineChoiceInteraction responseIdentifier="DROP_RESPONSE_3" shuffle="true">
+			<inlineChoice identifier="-1484999559">a noun</inlineChoice>
+			<inlineChoice identifier="414527253">an adverb</inlineChoice>
+			<inlineChoice identifier="1154783073">a prepositional phrase</inlineChoice>
+		</inlineChoiceInteraction><span>.</span>    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="wrong"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/wrong.mp3" type="narration">
+                        <source src="media/wrong.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="ok"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/ok.mp3" type="narration">
+                        <source src="media/ok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</textInteraction>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>
+    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="allOk"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/allok.mp3" type="narration">
+                        <source src="media/allok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</group>
+	            <!-- cannot find module for dummy 'dummy2'!-->
+	            <!-- cannot find module for dummy 'dummy3'!-->
+	            <!-- cannot find module for dummy 'dummy4'!-->
+	            <!-- cannot find module for dummy 'dummy5'!-->
+	            <!-- cannot find module for dummy 'dummy6'!-->
+	            <!-- cannot find module for dummy 'dummy7'!-->
+	            <!-- cannot find module for dummy 'dummy8'!-->
+	            <!-- cannot find module for dummy 'dummy9'!-->
+	            <!-- cannot find module for dummy 'dummy10'!-->
+	        </div>
+	    </div>
+	   	<div class="lesson-footer-buttons">    
+	        <markAllButton class="lesson-footer-action-button mark-answers" id="markAnswers"/>
+	        <showAnswersButton class="lesson-footer-action-button show-answers" id="showAnswers"/>
+	        <resetButton class="lesson-footer-action-button reset" id="reset"/>
+	    </div>
+	    <div class="page-menu">	
+			<div class="menu-button"/>
+			<report class="menu-content">
+			  <prr>
+				<rd>
+					<div class="toc-line"> 
+						<link> 
+							<div class="toc-line-table">
+								<info class="variable-page-title"/>
+							</div>
+						</link>
+					</div>
+				</rd>
+			  </prr>
+			</report>
+		</div>
+			</itemBody>
+</assessmentItem>

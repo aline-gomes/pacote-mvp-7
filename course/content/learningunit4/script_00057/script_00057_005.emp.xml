@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.188" identifier="ITEM_005" playerVersion="1.8.0" timeDependent="false" title="Practice 3">
+<styleDeclaration><link href="../common/default.css" userAgent=".*"/><link href="../common/android.css" userAgent=".*Android"/><link href="../common/ios.css" userAgent=".*iPad|.*iPhone"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>12</value>
+		</defaultValue>
+	</outcomeDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_1-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_1-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_1">
+					<correctResponse>
+						<value forIndex="0">goes</value>
+						<value forIndex="0">Goes</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_10-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_10-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_10-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_10-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_10-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_10-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_10-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_10-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_10">
+					<correctResponse>
+						<value forIndex="0">riding</value>
+						<value forIndex="0">Riding</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_11-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_11-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_11-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_11-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_11-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_11-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_11-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_11-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_11">
+					<correctResponse>
+						<value forIndex="0">went</value>
+						<value forIndex="0">Went</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_12-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_12-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_12-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_12-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_12-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_12-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_12-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_12-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_12">
+					<correctResponse>
+						<value forIndex="0">sailing</value>
+						<value forIndex="0">Sailing</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_2-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_2-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_2">
+					<correctResponse>
+						<value forIndex="0">cycling</value>
+						<value forIndex="0">Cycling</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_3-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_3-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_3">
+					<correctResponse>
+						<value forIndex="0">go</value>
+						<value forIndex="0">Go</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_4-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_4-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_4">
+					<correctResponse>
+						<value forIndex="0">swimming</value>
+						<value forIndex="0">Swimming</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_5-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_5-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_5-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_5-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_5-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_5-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_5-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_5-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_5">
+					<correctResponse>
+						<value forIndex="0">went</value>
+						<value forIndex="0">Went</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_6-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_6-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_6-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_6-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_6-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_6-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_6-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_6-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_6">
+					<correctResponse>
+						<value forIndex="0">hiking</value>
+						<value forIndex="0">Hiking</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_7-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_7-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_7-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_7-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_7-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_7-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_7-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_7-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_7">
+					<correctResponse>
+						<value forIndex="0">goes</value>
+						<value forIndex="0">Goes</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_8-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_8-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_8-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_8-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_8-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_8-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_8-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_8-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_8">
+					<correctResponse>
+						<value forIndex="0">shopping</value>
+						<value forIndex="0">Shopping</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_9-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_9-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_9-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_9-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_9-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_9-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_9-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_9-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_9">
+					<correctResponse>
+						<value forIndex="0">goes</value>
+						<value forIndex="0">Goes</value>
+					</correctResponse>
+				</responseDeclaration>
+		<itemBody>
+
+		<div class="page-practice">	
+           	<div class="page-header">		
+				<div class="lesson-header-home-button"><shape class="home-button"/></div>
+				<div class="lesson-header-page-title"><info class="variable-page-title"/></div>
+	        	<div class="lesson-header-lesson-title"><info class="variable-lesson-title"/></div>		
+			</div>
+			<div class="page-content">	
+	            <group class="activity" id="dummy1">
+	<group class="rubric" id="dummy1_1">
+	<div class="rubric-cloud">
+				<audioPlayer class="player-normal" data="media/rub_y9_u57_p5_001au.mp3" id="dummy1_1_1">
+<source src="media/rub_y9_u57_p5_001au.mp3" type="audio/mp4"/>	</audioPlayer>
+				<simpleText class="question" id="dummy1_1_2">
+Complete the sentences with the correct form of <i>go</i> and the correct <i>-ing</i> form.</simpleText>
+			</div>
+</group>			
+<group class="grid_1x100" id="dummy1_2">
+	<div class="t1x100">
+		<div class="w100perc">
+			<div class="w100perc">
+				<div class="inner">
+					<group id="dummy1_2_1">
+	<group class="grid-vm" id="dummy1_2_1_1">
+	<group class="grid_100xany" id="dummy1_2_1_1_1">
+	<div class="element-100-any">
+		<div class="w100perc">
+			<div class="element-100">
+				<div class="inner">
+					<img class="colorline" fullscreenMode="magnific" id="dummy1_2_1_1_1_1" src="media/y9_u57_p1_002i.jpeg" srcFullScreen="media/y9_u57_p1_002i_f.jpg">
+</img>
+				</div>	
+			</div>
+			<div class="element-any-position"/>
+			<div class="element-any">
+				<div class="inner">
+					<textInteraction id="dummy1_2_1_1_1_2">
+<span>Emma is busy but she still </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_1"/><span> </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_2"/><span> three times a week.</span>    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="wrong"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/wrong.mp3" type="narration">
+                        <source src="media/wrong.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="ok"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/ok.mp3" type="narration">
+                        <source src="media/ok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</textInteraction>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>
+</group>			
+<group class="grid-vm" id="dummy1_2_1_2">
+	<group class="grid_100xany" id="dummy1_2_1_2_1">
+	<div class="element-100-any">
+		<div class="w100perc">
+			<div class="element-100">
+				<div class="inner">
+					<img class="colorline" fullscreenMode="magnific" id="dummy1_2_1_2_1_1" src="media/y9_u57_p5_001i.jpg" srcFullScreen="media/y9_u57_p5_001i_f.jpg">
+</img>
+				</div>	
+			</div>
+			<div class="element-any-position"/>
+			<div class="element-any">
+				<div class="inner">
+					<textInteraction id="dummy1_2_1_2_1_2">
+<span>Kate didn't </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_3"/><span> </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_4"/><span> last night.</span>    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="wrong"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/wrong.mp3" type="narration">
+                        <source src="media/wrong.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="ok"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/ok.mp3" type="narration">
+                        <source src="media/ok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</textInteraction>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>
+</group>			
+<group class="grid-vm" id="dummy1_2_1_3">
+	<group class="grid_100xany" id="dummy1_2_1_3_1">
+	<div class="element-100-any">
+		<div class="w100perc">
+			<div class="element-100">
+				<div class="inner">
+					<img class="colorline" fullscreenMode="magnific" id="dummy1_2_1_3_1_1" src="media/y9_u57_p5_002i.jpg" srcFullScreen="media/y9_u57_p5_002i_f.jpg">
+</img>
+				</div>	
+			</div>
+			<div class="element-any-position"/>
+			<div class="element-any">
+				<div class="inner">
+					<textInteraction id="dummy1_2_1_3_1_2">
+<span>William </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_5"/><span> </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_6"/><span> last weekend.</span>    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="wrong"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/wrong.mp3" type="narration">
+                        <source src="media/wrong.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="ok"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/ok.mp3" type="narration">
+                        <source src="media/ok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</textInteraction>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>
+</group>			
+<group class="grid-vm" id="dummy1_2_1_4">
+	<group class="grid_100xany" id="dummy1_2_1_4_1">
+	<div class="element-100-any">
+		<div class="w100perc">
+			<div class="element-100">
+				<div class="inner">
+					<img class="colorline" fullscreenMode="magnific" id="dummy1_2_1_4_1_1" src="media/y9_u57_p5_003i.jpg" srcFullScreen="media/y9_u57_p5_003i_f.jpg">
+</img>
+				</div>	
+			</div>
+			<div class="element-any-position"/>
+			<div class="element-any">
+				<div class="inner">
+					<textInteraction id="dummy1_2_1_4_1_2">
+<span>Harry regularly </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_7"/><span> </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_8"/><span> for gadgets.</span>    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="wrong"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/wrong.mp3" type="narration">
+                        <source src="media/wrong.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="ok"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/ok.mp3" type="narration">
+                        <source src="media/ok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</textInteraction>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>
+</group>			
+<group class="grid-vm" id="dummy1_2_1_5">
+	<group class="grid_100xany" id="dummy1_2_1_5_1">
+	<div class="element-100-any">
+		<div class="w100perc">
+			<div class="element-100">
+				<div class="inner">
+					<img class="colorline" fullscreenMode="magnific" id="dummy1_2_1_5_1_1" src="media/y9_u57_p5_004i.jpg" srcFullScreen="media/y9_u57_p5_004i_f.jpg">
+</img>
+				</div>	
+			</div>
+			<div class="element-any-position"/>
+			<div class="element-any">
+				<div class="inner">
+					<textInteraction id="dummy1_2_1_5_1_2">
+<span>Emma's friend loves ponies. She </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_9"/><span> </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_10"/><span> every weekend.</span>    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="wrong"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/wrong.mp3" type="narration">
+                        <source src="media/wrong.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="ok"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/ok.mp3" type="narration">
+                        <source src="media/ok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</textInteraction>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>
+</group>			
+<group class="grid-vm" id="dummy1_2_1_6">
+	<group class="grid_100xany" id="dummy1_2_1_6_1">
+	<div class="element-100-any">
+		<div class="w100perc">
+			<div class="element-100">
+				<div class="inner">
+					<img class="colorline" fullscreenMode="magnific" id="dummy1_2_1_6_1_1" src="media/y9_u57_p1_007i.jpeg" srcFullScreen="media/y9_u57_p1_007i_f.jpg">
+</img>
+				</div>	
+			</div>
+			<div class="element-any-position"/>
+			<div class="element-any">
+				<div class="inner">
+					<textInteraction id="dummy1_2_1_6_1_2">
+<span>Kate's mum </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_11"/><span> </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_12"/><span> last summer.</span>    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="wrong"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/wrong.mp3" type="narration">
+                        <source src="media/wrong.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="ok"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/ok.mp3" type="narration">
+                        <source src="media/ok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</textInteraction>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>
+</group>
+</group>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- cannot find module for dummy 'dummy2'!-->
+	<!-- cannot find module for dummy 'dummy3'!-->
+	<!-- cannot find module for dummy 'dummy4'!-->
+	<!-- cannot find module for dummy 'dummy5'!-->
+	<!-- cannot find module for dummy 'dummy6'!-->
+	<!-- cannot find module for dummy 'dummy7'!-->
+	<!-- cannot find module for dummy 'dummy8'!-->
+	<!-- cannot find module for dummy 'dummy9'!-->
+	<!-- cannot find module for dummy 'dummy10'!-->
+	<!-- cannot find module for dummy 'dummy11'!-->
+	<!-- cannot find module for dummy 'dummy12'!-->
+	<!-- cannot find module for dummy 'dummy13'!-->
+	<!-- cannot find module for dummy 'dummy14'!-->
+	<!-- cannot find module for dummy 'dummy15'!-->
+	<!-- cannot find module for dummy 'dummy16'!-->
+	<!-- cannot find module for dummy 'dummy17'!-->
+	<!-- cannot find module for dummy 'dummy18'!-->
+	<!-- cannot find module for dummy 'dummy19'!-->
+	<!-- cannot find module for dummy 'dummy20'!-->
+	<!-- cannot find module for dummy 'dummy21'!-->
+</group>			
+<group class="grammar_box" id="dummy1_3">
+	<div class="grammar-box">
+	<div class="col-md-12">
+		<simpleText class="grammar-title" id="dummy1_3_1">
+Gerund with <i>go</i></simpleText>
+	</div>
+	<div class="col-md-12 align-hc">
+		<table class="center grammar-table" id="dummy1_3_2">
+	<tr>
+		<td>
+<simpleText>Gerunds (verbs + <i>-ing</i>) can follow different forms of the verb <i>go</i> when talking about activities that you go outside to do.</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+
+<group class="grid_1x100" id="dummy1_3_2_x0y1">
+	<div class="t1x100">
+		<div class="w100perc">
+			<div class="w100perc">
+				<div class="inner">
+					<group class="align-hl" id="dummy1_3_2_x0y1_1">
+	<simpleText class="normal-text" id="dummy1_3_2_x0y1_1_1">
+<b>Examples:</b></simpleText>			
+<group class="grid_48xany" id="dummy1_3_2_x0y1_1_2">
+	<div class="element-48-any">
+		<div class="w100perc">	
+			<div class="element-48">
+				<div class="inner">
+					<audioPlayer class="player-normal" data="media/y9_u57_p5_001au.mp3" id="dummy1_3_2_x0y1_1_2_1">
+<source src="media/y9_u57_p5_001au.mp3" type="audio/mp4"/>	</audioPlayer>
+				</div>	
+			</div>
+			<div class="element-any-position"/>
+			<div class="element-any">
+				<div class="inner">
+					<simpleText id="dummy1_3_2_x0y1_1_2_2">
+<i>My brother goes jogging five times a week.</i></simpleText>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>			
+<group class="grid_48xany" id="dummy1_3_2_x0y1_1_3">
+	<div class="element-48-any">
+		<div class="w100perc">	
+			<div class="element-48">
+				<div class="inner">
+					<audioPlayer class="player-normal" data="media/y9_u57_p5_002au.mp3" id="dummy1_3_2_x0y1_1_3_1">
+<source src="media/y9_u57_p5_002au.mp3" type="audio/mp4"/>	</audioPlayer>
+				</div>	
+			</div>
+			<div class="element-any-position"/>
+			<div class="element-any">
+				<div class="inner">
+					<simpleText id="dummy1_3_2_x0y1_1_3_2">
+<i>My sister went sailing in Spain.</i></simpleText>
+				</div>	
+			</div>
+		</div>
+	</div>
+</group>
+</group>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- cannot find module for dummy 'dummy2'!-->
+	<!-- cannot find module for dummy 'dummy3'!-->
+	<!-- cannot find module for dummy 'dummy4'!-->
+	<!-- cannot find module for dummy 'dummy5'!-->
+	<!-- cannot find module for dummy 'dummy6'!-->
+	<!-- cannot find module for dummy 'dummy7'!-->
+	<!-- cannot find module for dummy 'dummy8'!-->
+	<!-- cannot find module for dummy 'dummy9'!-->
+	<!-- cannot find module for dummy 'dummy10'!-->
+	<!-- cannot find module for dummy 'dummy11'!-->
+	<!-- cannot find module for dummy 'dummy12'!-->
+	<!-- cannot find module for dummy 'dummy13'!-->
+	<!-- cannot find module for dummy 'dummy14'!-->
+	<!-- cannot find module for dummy 'dummy15'!-->
+	<!-- cannot find module for dummy 'dummy16'!-->
+	<!-- cannot find module for dummy 'dummy17'!-->
+	<!-- cannot find module for dummy 'dummy18'!-->
+	<!-- cannot find module for dummy 'dummy19'!-->
+	<!-- cannot find module for dummy 'dummy20'!-->
+	<!-- cannot find module for dummy 'dummy21'!-->
+</group>		</td>
+	</tr>
+</table>
+
+	</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy3'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy4'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy5'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy6'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy7'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy8'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy9'!-->
+		</div>
+	<div class="col-md-12 align-hc">
+		<!-- cannot find module for dummy 'dummy10'!-->
+	</div>
+</div>
+</group>
+    <feedbacks>
+            <feedback>
+                <condition>
+                        <and>
+    <propertyCondition property="allOk"/>
+                        </and>
+                </condition>
+<action>
+        <showUrl href="media/allok.mp3" type="narration">
+                        <source src="media/allok.mp3" type="audio/mp4"/>
+        </showUrl>
+</action>
+            </feedback>
+    </feedbacks>
+</group>
+	            <!-- cannot find module for dummy 'dummy2'!-->
+	            <!-- cannot find module for dummy 'dummy3'!-->
+	            <!-- cannot find module for dummy 'dummy4'!-->
+	            <!-- cannot find module for dummy 'dummy5'!-->
+	            <!-- cannot find module for dummy 'dummy6'!-->
+	            <!-- cannot find module for dummy 'dummy7'!-->
+	            <!-- cannot find module for dummy 'dummy8'!-->
+	            <!-- cannot find module for dummy 'dummy9'!-->
+	            <!-- cannot find module for dummy 'dummy10'!-->
+	        </div>
+	    </div>
+	   	<div class="lesson-footer-buttons">    
+	        <markAllButton class="lesson-footer-action-button mark-answers" id="markAnswers"/>
+	        <showAnswersButton class="lesson-footer-action-button show-answers" id="showAnswers"/>
+	        <resetButton class="lesson-footer-action-button reset" id="reset"/>
+	    </div>
+	    <div class="page-menu">	
+			<div class="menu-button"/>
+			<report class="menu-content">
+			  <prr>
+				<rd>
+					<div class="toc-line"> 
+						<link> 
+							<div class="toc-line-table">
+								<info class="variable-page-title"/>
+							</div>
+						</link>
+					</div>
+				</rd>
+			  </prr>
+			</report>
+		</div>
+			</itemBody>
+</assessmentItem>

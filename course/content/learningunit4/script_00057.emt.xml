@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentTest compilerVersion="3.3.2.188" gtm="true" identifer="Lesson 57 – Dancing is good for you!" playerVersion="1.8.0" title="Dancing is good for you!">
+				
+		<testView href="common/lesson.emp.xml"/>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+	<general>
+		<keyword><string>cycling</string></keyword>
+		<keyword><string>dancing</string></keyword>
+		<keyword><string>drinking</string></keyword>
+		<keyword><string>exercising</string></keyword>
+		<keyword><string>hiking</string></keyword>
+		<keyword><string>riding</string></keyword>
+		<keyword><string>sailing</string></keyword>
+		<keyword><string>sweating</string></keyword>
+		<keyword><string>swimming</string></keyword>
+		<keyword><string>good for you</string></keyword>
+		<keyword><string>entertainment</string></keyword>
+		<keyword><string>media</string></keyword>
+		<title><string>Dancing is good for you!</string></title>
+	</general>
+	<educational>
+		<description><string>Learning goals:
+1. Using gerunds as subjects and objects in sentences
+2. Introducing vocabulary related to entertainment and the media</string></description>
+	</educational>
+</lom>
+	<styleDeclaration>
+		<link href="common/default.css" userAgent=".*"/>
+	</styleDeclaration>
+	<variableProcessing template="default"/>
+
+	<outcomeDeclaration cardinality="single" identifier="DONE"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO"/>
+	<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+	<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+	<outcomeDeclaration cardinality="single" identifier="RESET"/>
+	<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+
+	<testPart>
+		<assessmentSection>
+			<assessmentItemRef class="page_toc" href="script_00057/script_00057_000.emp.xml" identifier="ITEM_000"/>
+			<assessmentItemRef class="page_leadin" href="script_00057/script_00057_001.emp.xml" identifier="ITEM_001"/>
+			<assessmentItemRef class="page_maininput" href="script_00057/script_00057_002.emp.xml" identifier="ITEM_002"/>
+			<assessmentItemRef class="page_practice" href="script_00057/script_00057_003.emp.xml" identifier="ITEM_003"/>
+			<assessmentItemRef class="page_practice" href="script_00057/script_00057_004.emp.xml" identifier="ITEM_004"/>
+			<assessmentItemRef class="page_practice" href="script_00057/script_00057_005.emp.xml" identifier="ITEM_005"/>
+			<assessmentItemRef class="page_practice_visited" href="script_00057/script_00057_006.emp.xml" identifier="ITEM_006"/>
+			<assessmentItemRef class="page_eta_visited" href="script_00057/script_00057_007.emp.xml" identifier="ITEM_007"/>
+			<assessmentItemRef class="page_report" href="script_00057/script_00057_008.emp.xml" identifier="ITEM_008"/>
+			<assessmentItemRef class="page_report" href="./newassets/script_1.emp.xml" identifier="ITEM_008"/>
+		</assessmentSection>
+	</testPart>
+</assessmentTest>
