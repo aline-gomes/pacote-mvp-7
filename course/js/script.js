@@ -261,7 +261,7 @@ function prepareScreen() {
 
                 window.addEventListener("click", function (e) {
                     let event = e.target;
-                    console.log('clicked on ' + event);
+                    console.log(event);
                 });
             }
             break;
