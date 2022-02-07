@@ -259,10 +259,14 @@ function prepareScreen() {
                 // iniciarScriptButtons();
                 // tela4 = true;
 
-                window.addEventListener("click", function (e) {
-                    let event = e.target;
-                    console.log(event);
-                });
+                var teste = document.querySelectorAll('.qp-placeholder');
+
+                for (let i = 0; i < teste.length; i++) {
+                    teste[i].addEventListener("click", function (e) {
+                        let event = e.target;
+                        console.log(event);
+                    });
+                }
             }
             break;
     }
