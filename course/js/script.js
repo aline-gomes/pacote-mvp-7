@@ -256,8 +256,10 @@ function prepareScreen() {
     switch (currentScreen) {
         case 4:
             if (!tela4) {
-                iniciarScriptButtons();
-                tela4 = true;
+                setTimeout(function () {
+                    iniciarScriptButtons();
+                    tela4 = true;
+                }, 50);
             }
             break;
     }
